@@ -66,4 +66,4 @@ bot.on('guildMemberAdd', member =>{
   member.sendEmbed(embed);
 });
 
-bot.login("NDYzNDMyOTM0NTk1MTAwNjcy.DhwVFA.31oEyo1i_6Ap76pAfoLgQ6i_lA8");
+bot.login("BOT_TOKEN");
