@@ -66,4 +66,4 @@ bot.on('guildMemberAdd', member =>{
   member.sendEmbed(embed);
 });
 
-bot.login("BOT_TOKEN");
+bot.login(BOT_TOKEN);
