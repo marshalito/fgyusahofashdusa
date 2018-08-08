@@ -6,7 +6,7 @@ module.exports.run = async (client, message, args) => {
     var reason = message.content.split(" ").slice(1).join(" ");
     var role = message.guild.roles.find('name', 'FutureTechnology');
     const embed1 = new Discord.RichEmbed()
-  .setDescription(`:white_small_square: **Site:** www.futuretechnology.com.br  
+  .setDescription(`:white_small_square: **Viados (Donos): Pênisvaldo e Daaniloo  
 :white_small_square: **Comandos: **!sugerir e !membros.`)
   .setColor(role.color)
   .setTimestamp()
