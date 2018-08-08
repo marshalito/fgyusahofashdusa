@@ -4,11 +4,9 @@ module.exports.run = async (client, message, args) => {
 	if (!message.guild.member(client.user).hasPermission("ADMINISTRATOR")) return message.reply("Permissões insuficientes.");
     
     var reason = message.content.split(" ").slice(1).join(" ");
-    var role = message.guild.roles.find('name', 'FutureTechnology');
     const embed1 = new Discord.RichEmbed()
   .setDescription(`:white_small_square: **Viados (Donos): Pênisvaldo e Daaniloo  
 :white_small_square: **Comandos: **!sugerir e !membros.`)
-  .setColor(role.color)
   .setTimestamp()
   .setFooter(`Comando por: ${message.author.username}`, message.author.avatarURL)
   message.member.send({embed: embed1}); 
