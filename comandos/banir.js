@@ -16,9 +16,7 @@ module.exports.run = (bot, message, args) => {
   message.reply("usuário **banido** com **sucesso**.").then(a=>a.delete(1500));
   let modlog = bot.channels.find("name", "punições");
   if (!modlog) return message.reply("Crie um canal para que as punições possam ser arquivadas, nomeie-o de **punições**.");
-  let role = message.guild.roles.find("name", "Dream")
   var embed = new Discord.RichEmbed()
-        .setColor(role.color)
         .setDescription(`**Autor:** ${message.author.username}
 **Membro banido:** ${user.username}
 **Motivo:** ${reason}`)
