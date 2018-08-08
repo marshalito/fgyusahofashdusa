@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) => {
     
     var reason = message.content.split(" ").slice(1).join(" ");
     const embed1 = new Discord.RichEmbed()
-  .setDescription(`:white_small_square: **Viados (Donos): Pênisvaldo e Daaniloo  
+  .setDescription(`:white_small_square: **Viado (Dono): i132  
 :white_small_square: **Comandos: **!sugerir e !membros.`)
   .setTimestamp()
   .setFooter(`Comando por: ${message.author.username}`, message.author.avatarURL)
